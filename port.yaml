@@ -1,0 +1,13 @@
+identifier: PLACEHOLDER_ID
+title: PLACEHOLDER_TITLE
+blueprint: service
+properties:
+  criticality: PLACEHOLDER_CRITICALITY
+  runbook_url: ""
+  on_call_contact: ""
+  has_observability_configured: true
+  has_alerts_configured: false
+  no_critical_vulnerabilities: true
+  has_k8s_manifests: true
+relations:
+  owning_team: PLACEHOLDER_TEAM
