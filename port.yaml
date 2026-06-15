@@ -3,8 +3,8 @@ title: PLACEHOLDER_TITLE
 blueprint: service
 properties:
   criticality: PLACEHOLDER_CRITICALITY
-  runbook_url: ""
-  on_call_contact: ""
+  runbook_url: "https://rahul.confluence.com/file"
+  on_call_contact: "rahul@port.com"
   has_observability_configured: true
   has_alerts_configured: false
   no_critical_vulnerabilities: true
