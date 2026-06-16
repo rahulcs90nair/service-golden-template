@@ -1,10 +1,18 @@
+# Local development only. The canonical copy used by ArgoCD lives in the GitOps repo
+# and is seeded from this file during service scaffolding (PLACEHOLDER_ID is substituted).
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: PLACEHOLDER_ID
 spec:
   replicas: 2
+  selector:
+    matchLabels:
+      app: PLACEHOLDER_ID
   template:
+    metadata:
+      labels:
+        app: PLACEHOLDER_ID
     spec:
       containers:
         - name: PLACEHOLDER_ID
